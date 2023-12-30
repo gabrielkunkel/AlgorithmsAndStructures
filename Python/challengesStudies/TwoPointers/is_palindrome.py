@@ -1,5 +1,6 @@
 class IsPalindrome:
-    def isPalindrome(self, s: str) -> bool:
+    @staticmethod
+    def my_attempt(s: str) -> bool:
         left: int = 0
         right: int = len(s) - 1
         while left < right:
